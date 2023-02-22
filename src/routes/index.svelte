@@ -6,7 +6,7 @@
 	let errorText = '';
 	const hash = () => {
 		if (!isValidUrl(inputUrl)) {
-			errorText = 'invalid url';
+			errorText = '错误链接';
 			return;
 		}
 		fetch('/hash', {
@@ -21,13 +21,13 @@
 				goto(`/hashed?key=${data.key}&hours=${data.hours}`);
 			})
 			.catch(() => {
-				errorText = 'try again';
+				errorText = '重试';
 			});
 	};
 </script>
 
 <main>
-	<h1 class="mt-40 text-7xl lg:text-8xl">lil' hash</h1>
+	<h1 class="mt-40 text-7xl lg:text-8xl">知链短链</h1>
 	<p>simple sharable url shortener</p>
 	<div class="font-sans text-off-black text-md lg:text-2xl">
 		<input
@@ -42,7 +42,7 @@
 			on:click={hash}
 			aria-label="shorten url"
 		>
-			{errorText ? errorText : 'hash'}
+			{errorText ? errorText : '缩短'}
 		</button>
 	</div>
 </main>

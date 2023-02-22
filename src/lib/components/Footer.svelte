@@ -4,7 +4,7 @@
 
 <footer class="width-screen mt-2 dark:text-gray-300">
 	<div class="margin-auto flex justify-center space-x-4">
-		<a href="https://jackbow.pages.dev/" class={linkclasses} aria-label="my personal website">
+		<a href="https://huangetech.github.io" class={linkclasses} aria-label="my personal website">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="24"
@@ -21,7 +21,7 @@
 				<path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
 			</svg>
 		</a>
-		<a href="mailto:jack@lilhash.com" target="_blank" rel="noopener" class={linkclasses} aria-label="email me">
+		<a href="mailto:muzihuaner@hotmail.com" target="_blank" rel="noopener" class={linkclasses} aria-label="email me">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="icon icon-tabler icon-tabler-mail"
@@ -39,7 +39,7 @@
 				<polyline points="3 7 12 13 21 7" />
 			</svg>
 		</a>
-		<a href="https://github.com/jackbow/lil-hash" class={linkclasses} aria-label="website source code">
+		<a href="https://github.com/muzihuaner" class={linkclasses} aria-label="website source code">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="24"

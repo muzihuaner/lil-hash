@@ -28,7 +28,7 @@
 	});
 </script>
 
-<p class="my-4 mt-40">your link has been shortened to</p>
+<p class="my-4 mt-40">你的短链接</p>
 <h1
 	on:click={selectHashedUrl}
 	on:keypress={(e) => {
@@ -42,5 +42,5 @@
 	{hashedUrl}
 </h1>
 <p class="m-4 md:m-5 lg:m-8">
-	for the next {hours} hours
+	在接下来的 {hours} 小时可用
 </p>

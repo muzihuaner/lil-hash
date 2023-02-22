@@ -5,5 +5,5 @@
 <slot />
 
 <svelte:head>
-	<title>lil' hash</title>
+	<title>知链短链-欢哥科技</title>
 </svelte:head>
